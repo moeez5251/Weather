@@ -217,7 +217,7 @@ body{
 }
 @media only screen and (max-width:350px) {
     .temp{
-        left: 140px;
+        left: 103px;
         top: 201px;
     }
     .C{
@@ -226,13 +226,37 @@ body{
     }
     .icon{
     top: 208px;
-    left: 204px;
+    left: 164px;
     }
     .elements{
-        margin: 20px 63px;
+        margin: 20px 43px;
     }
     .elements1{
-        margin: 20px -148px;
+        margin: 20px -126px;
+    }
+    .elements2{
+        right: -106px;
+    }
+}
+@media only screen and (max-width:300px) {
+    .inp{
+        font-size: 16px;
+    }
+    .temp{
+        left: 47px;
+        top: 204px;
+    }
+    .C{
+        right: 83px;
+    }
+    .icon{
+        left: 109px;
+    }
+    .elements{
+        margin: 20px 23px;
+    }
+    .elements1{
+        margin: 20px -106px;
     }
     .elements2{
         right: -106px;
