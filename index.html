@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/weather.png" type="gif/x-icon ">
+    <script defer src="https://kit.fontawesome.com/7c8801c017.js"></script>
+</head>
+<div id="loader">
+    <img src="img/Pre-Loader.gif" alt="">
+</div>
+
+<body onload="loader()">
+    <div class="box">
+        <div class="box1">
+            <img src="img/Location.png" alt="Search Logo" id="Location">
+            <input type="text" placeholder="Enter Location" name="Location" class="inp" id="inp" autocomplete="off">
+            <img src="img/Search.png" alt="Search Logo" id="image" accesskey="Enter">
+        </div>
+
+        <div id="img">
+            <img src="" class="img">
+            <p class="temp">
+            </p>
+            <i class="fa fa-circle-thin icon"></i>
+            <span class="C">C</span>
+            </p>
+            <p class="Description"></p>
+        </div>
+        <div class="container">
+            <div class="elements">
+                <i class="fa-solid fa-water"></i>
+                <span class="humidity_value"></span>
+                <span class="humidity">Humidity</span>
+            </div>
+            <div class="elements">
+                <i class="fa-solid fa-wind"></i>
+                <span class="wind_value"></span>
+                <span class="wind">Wind Speed</span>
+            </div>
+        </div>
+        <div class="container1">
+            <div class="elements1">
+                <i class='fas fa-meteor' style='color:white'></i>
+                <span class="pressure"></span>
+                <br>
+                <span class="humidity">Pressure</span>
+            </div>
+            <div class="elements2">
+                <i class="fa-solid fa-lightbulb"></i>
+                <span class="Feel"></span>
+                <br>
+                <span class="wind">Feel</span>
+            </div>
+        </div>
+
+</body>
+<script src="js/script.js"></script>
+
+</html>
