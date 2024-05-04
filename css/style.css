@@ -215,7 +215,7 @@ body{
     top: 204px;
     }
 }
-@media only screen and (max-width:350px) {
+@media only screen and (max-width:360px) {
     .temp{
         left: 103px;
         top: 201px;
