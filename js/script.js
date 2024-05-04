@@ -17,6 +17,7 @@ const wind=document.querySelector('.wind_value');
 const feel=document.querySelector('.Feel');
 const pressure=document.querySelector('.pressure');
 let error=document.querySelector('.container');
+let error2=document.querySelector('.container1');
 search.addEventListener('click', () => {
     
     if (Input.value=="") {
@@ -95,6 +96,8 @@ search.addEventListener('click', () => {
         wind.innerHTML=`${parseInt(json.wind.speed)} km/h`
         pressure.innerHTML=json.main.pressure;
         feel.innerHTML=parseInt(json.main.feels_like-273) ;
+        error.classList.add('animation');
+        error2.classList.add('animation');
     });
 });
 

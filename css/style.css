@@ -197,7 +197,7 @@ body{
     font-size: 22px;
 }
 .error{
-    background: url(/img/Error.jpg) center center no-repeat;
+    background: url(../img/Error.jpg) center center no-repeat;
     background-size: cover;
     width: 50%;
     height: 50%;
@@ -227,5 +227,14 @@ body{
     .icon{
     top: 208px;
     left: 204px;
+    }
+    .elements{
+        margin: 20px 63px;
+    }
+    .elements1{
+        margin: 20px -148px;
+    }
+    .elements2{
+        right: -106px;
     }
 }
