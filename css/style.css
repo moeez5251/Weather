@@ -211,17 +211,21 @@ body{
         top: 201px;
     }
     .C{
-        right: 95px;
+        right: 134px;
     top: 204px;
     }
+    .icon{
+        top: 209px;
+    left: 214px;
+    }
 }
-@media only screen and (max-width:360px) {
+@media only screen and (max-width:385px) {
     .temp{
-        left: 103px;
+        left: 100px;
         top: 201px;
     }
     .C{
-        right: 95px;
+        right: 160px;
     top: 204px;
     }
     .icon{
