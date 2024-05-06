@@ -211,26 +211,29 @@ body{
         top: 201px;
     }
     .C{
-        right: 134px;
+        right: 148px;
     top: 204px;
     }
     .icon{
         top: 209px;
-    left: 214px;
+    left: 210px;
     }
 }
-@media only screen and (max-width:385px) {
+@media only screen and (max-width:395px) {
+    .box{
+        width: 340px;
+    }
     .temp{
-        left: 100px;
+        left: 132px;
         top: 201px;
     }
     .C{
-        right: 160px;
-    top: 204px;
+        right: 112px;
+        top: 202px;
     }
     .icon{
-    top: 208px;
-    left: 164px;
+        top: 209px;
+    left: 190px;
     }
     .elements{
         margin: 20px 43px;
@@ -242,19 +245,19 @@ body{
         right: -106px;
     }
 }
-@media only screen and (max-width:300px) {
+@media only screen and (max-width:320px) {
     .inp{
         font-size: 16px;
     }
     .temp{
-        left: 47px;
-        top: 204px;
+        left: 107px;
+        top: 201px;
     }
     .C{
         right: 83px;
     }
     .icon{
-        left: 109px;
+        left: 169px;
     }
     .elements{
         margin: 20px 23px;

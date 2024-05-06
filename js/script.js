@@ -45,6 +45,7 @@ search.addEventListener('click', () => {
                 document.querySelectorAll('.elements')[1].style.display='none';
                 document.querySelector('.container1').style.display='none';
                 error.classList.remove('container');
+                error.classList.remove('animation');
                 error.classList.add('error');}
                 else{
                     fade.style.display='';
@@ -57,8 +58,9 @@ search.addEventListener('click', () => {
                 document.querySelectorAll('.elements')[0].style.display='';
                 document.querySelectorAll('.elements')[1].style.display='';
                 document.querySelector('.container1').style.display='';
-                error.classList.add('container');
                 error.classList.remove('error');
+                error.classList.add('container');
+                error.classList.add('animation');
                 }
 
         
