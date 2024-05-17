@@ -87,9 +87,8 @@ search.addEventListener('click', () => {
             image.src='img/Clouds.png';
 
         }
-        else if(json.weather[0].main=='Clouds'||json.weather[0].main=='Haze'){
+        else if(json.weather[0].main=='Clouds'||json.weather[0].main=='Haze'||json.weather[0].main=='Smoke'){
             image.src='img/Clouds.png';
-
         }
         fade.classList.add('animation');
             Description.innerHTML=`${json.weather[0].description}`;
