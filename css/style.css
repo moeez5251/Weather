@@ -21,7 +21,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #322f5e;
+    background-color: black;
 }
 .box{
     position: relative;
@@ -36,6 +36,8 @@ body{
     flex-direction: column;
     align-items: center;
     top: -35px;
+    outline: 1px solid rgb(243, 243, 243);
+    outline-offset: 1px;
 }   
 .box::before{
     left: -35%;
